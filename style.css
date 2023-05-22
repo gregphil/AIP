@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans Mono', monospace;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.body {
+    width: min(100%, 800px);
+    margin: 0 auto;
+}
+
+.sec1 {
+    background-image: linear-gradient(#00000033, #00000033), url('./smile.jpg');
+    background-size: cover;
+    padding: 8rem 3rem;
+    display: flex;
+    color: #f3f3f3;
+    justify-content: left;
+    margin-bottom: 3rem;
+    width: 100%;
+}
+
+.sec1 div {
+    width: min(400px, 100%);
+}
+
+.sec1 div h3 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem 0;
+    margin: 3rem 0;
+}
+
+.sec1 div p {
+    margin: 3rem 0;
+    text-align: center;
+    color: #fbff07;
+    font-size: 1.5rem;
+}
+
+.sec2 {
+    padding: 3rem;
+    box-shadow: 0 0 5px #b3b3b3;
+}
+
+.sec2 p, .sec2 span {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 3rem;
+    color: #008100;
+}
+
+.sec2 h2 {
+    text-transform: capitalize;
+    font-weight: 500;
+    margin: 2rem 0;
+}
+
+.sec2 ul {
+    margin: 0 auto;
+}
+
+.sec2 ul li {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    list-style: inside;
+}
+
+.sec3 {
+    margin: 3rem 0;
+}
+
+.sec3 h1 {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.testimonials {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 4rem 0;
+}
+
+.testimonials div {
+    width: 47%;
+    margin: 2% 1.5%;
+}
+
+.testimonials img {
+    display: block;
+    width: 100%;
+}
+
+.sec4 {
+    margin: 3rem 0;
+    background-color: #252525;
+    padding: 3rem;
+}
+
+.sec4 p {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #ff0303;
+    margin: 0 0 4rem 0;
+}
+
+.sec4 p span {
+    color: #7e7e7e;
+}
+
+.sec4 ul li {
+    font-size: 1rem;
+    margin: 1rem 0;
+    list-style: inside;
+    color: #b3b3b3;
+}
+
+.sec4 h1 {
+    color: #fbff07;
+    margin: 4rem 0;
+}
+
+.sec4 h2 {
+    color: #b3b3b3;
+}
+
+.sec5 {
+    padding: 4rem;
+    background-color: #d1d1d1;
+}
+
+.sec5 h1 {
+    color: #252525;
+    margin-bottom: 3rem;
+    text-transform: capitalize;
+}
+
+.sec5 ul li {
+    font-size: 1rem;
+    margin: 1.2rem 0;
+    list-style: inside;
+    line-height: 1.5rem;
+    color: #252525;
+}
+
+.sec5 ul li p {
+    padding: 1rem;
+    text-align: center;
+    background-color: #bdbbbb;
+    margin: 5px 0;
+    text-align: left;
+    border-radius: 7px;
+}
+
+.sec6 {
+    margin: 5rem 0;
+}
+
+.sec6 h3 {
+    text-align: left;
+    margin: 1rem 0;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    background-color: #ff0303;
+    display: block;
+    width: min(90%, 600px);
+    border-radius: 7px;
+    margin: 1rem auto;
+    text-align: center;
+    box-shadow: 0 5px 5px #7e7e7e;
+    padding: 1rem 0;
+}
+
+a h2 {
+    color: #f3f3f3;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+a p {
+    color: #f3f3f3;
+}
+
+#lastvideo {
+    background: none;
+    text-decoration: underline;
+    padding: 0;
+    box-shadow: none;
+    text-align: left;
+    color: blue;
+}
+
+.showup {
+    display: none;
+}
+
+.showmore {
+    padding: 3px 5px;
+    color: #ececec;
+    display: block;
+    width: auto;
+    background-color: #525252;
+    font-weight: 600;
+    border-radius: 2px;
+    border: none;
+}
+
+@media only screen and (max-width: 680px) {
+    .sec1 {
+        background-position: center;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .sec1 {
+        background-position: center;
+        justify-content: center;
+        padding: 8rem 1rem;
+    }
+
+    .sec1 div h3 {
+        font-size: 1.5rem;
+        padding: 1rem 0;
+        margin: 1rem 0;
+    }
+    
+    .sec1 div p {
+        margin: 1.2rem 0;
+        font-size: 15px;
+    }
+
+    .sec2 {
+        padding: 3rem 1rem;
+    }
+
+    .sec2 p, .sec2 span {
+        font-size: 1.5rem;
+    }
+
+    .sec2 ul li {
+        font-size: 1rem;
+    }
+
+    .testimonials {
+        flex-flow: column wrap;
+        margin: 3rem 0;
+    }
+
+    .testimonials div {
+        width: 95%;
+        margin: 2rem 1.5%;
+    }
+
+    .sec4 {
+        padding: 2rem 1rem;
+    }
+
+    #sec4btn {
+        margin: 2rem auto;
+        display: block;
+    }
+
+    .sec5 {
+        padding: 3rem 0.6rem;
+    }
+
+    mark {
+        padding: 0;
+    }
+}
